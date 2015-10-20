@@ -103,7 +103,7 @@ created_at : 2012-01-18T01:30:18Z
 
 তাহলে পুরো কোডটা দাঁড়াচ্ছে এমন:
 
-{% highlight text %}
+{% highlight python %}
 #!/usr/bin/env python
 """Script to get Github info using API"""
 import requests
