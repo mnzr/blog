@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "Scraping Github - The Setup (Part 1)"
-date: {}
+date: 2015-10-18
 author: Ratul Minhaz
 summary: Learn to scrape data from API using Python
 categories: learning
-tags: 
+tags:
   - scraping
   - python
   - API
