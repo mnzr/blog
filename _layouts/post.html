@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="page-content wc-container">
-	
+
 	<div class="post">
 		<h1>{{ page.title }}</h1>
 		<p class="post-meta">
@@ -13,16 +13,15 @@ layout: default
       </span> |
 	    {% endif %}
 	    <span class="post-date">
-    	{{ page.date | date: "%b %-d, %Y" }} 
+    	{{ page.date | date: "%b %-d, %Y" }}
 	    </span>
-		</p>		
+		</p>
 		<div class="post">
 			{{ content }}
-		
+
 			<p class="post-meta">
-				Find this interesting?
                 <a href="http://www.twitter.com/share?text={{ page.title}}&url={{ page.url | prepend: site.baseurl | prepend:site.url }}&via=mnz_r">
-                    Tweet</a> to comment or share the post.
+                    Tweet</a> to me about this post!
 			</p>
 
 		</div>
@@ -61,4 +60,4 @@ layout: default
 		</div>
 	</div>
 </div>
- 
+
