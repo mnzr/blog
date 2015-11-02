@@ -13,12 +13,14 @@ tags:
 published: true
 ---
 
-This is the first of a three part tutorial series on getting started with scraping data from Github: 
-1. [The Setup]({{ site.baseurl}}/scraping-github-1)
-2. [Fetching data from Github's API]({{ site.baseurl}}/scraping-github-2)
-
-
 Data science is a buzzword these days and everyone is asking how to be a data scientist. A data scientist's job is definitely awesome, because if anyone is close to predicting the future, they are the ones who probably do it. But what does a data scientist actually do? The process of "data science" roughly consists of three things: mining, analysis and visualization. Each one of these three segments is interesting in it's own right. In data mining you get to collect data from large data sources, mostly from the Internet using clever techniques like scraping.
+<!--more-->
+
+> This is the first of a three part tutorial series on getting started with scraping data from Github:
+>
+> 1. [The Setup]({{ site.baseurl}}/scraping-github-1)
+> 2. [Fetching Data]({{ site.baseurl}}/scraping-github-2)
+
 
 Many websites provide `API` so that other people can collect data from those sites to use in their work. For example you might want to know a Facebook page's growth over a certain period of time. Facebook made an API just so that you can get the data to do the analysis needed to answer your question. This sort of API is provided by Github and Twitter too. You can not imagine how vastly useful this public data is, they even came in handy as much as [detecting earthquakes](https://blog.twitter.com/2015/usgs-twitter-data-earthquake-detection) faster than the U.S. Geological Survey!
 

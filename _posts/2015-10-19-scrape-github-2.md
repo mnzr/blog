@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Scraping Github - Fetching Data from API (Part 2)"
+title: "Scraping Github - Fetching Data (Part 2)"
 permalink: scraping-github-2
 date: 2015-10-19
 author: Ratul Minhaz
@@ -13,9 +13,13 @@ tags:
 published: true
 ---
 
-This is the second of a three part tutorial series on getting started with scraping data from Github: 
-1. [The Setup]({{ site.baseurl}}/scraping-github-1)
-2. [Fetching data from Github's API]({{ site.baseurl}}/scraping-github-2)
+API, or Application Programming Interface was created to make things easier for developers who want to use anything made by other people. That's the watered down version of what an API is, you can(should) Google and learn more about it. There are tons of APIs out there that you can use to access anything starting from social media posts to map location data. A site called [Programmable Web](http://www.programmableweb.com/) keeps track of over 13,000 APIs like Google Maps, Twitter, Youtube, Flickr etc.
+<!--more-->
+
+> This is the first of a three part tutorial series on getting started with scraping data from Github:
+>
+> 1. [The Setup]({{ site.baseurl}}/scraping-github-1)
+> 2. [Fetching Data]({{ site.baseurl}}/scraping-github-2)
 
 Are you ready to begin scraping? Definitely you are, you have set up all the tools needed. But the question is, what are you going to scrape? Remember the API I talked about last time?
 
@@ -50,4 +54,7 @@ Websites like Github and Facebook have API or Application Programming Interface 
 }
 {% endhighlight %}
 
-This is what I see when I visit the address with my username: [https://api.github.com/users/mnzr](https://api.github.com/users/mnzr). I just left out a few lines so that it's easier to read. If you look carefully you will notice it consists of valuable information regarding my Github account: when it was created, how many public repositories I have, even how many people I am following.
+This is what I see when I visit the address with my username: [https://api.github.com/users/mnzr](https://api.github.com/users/mnzr). I left out a few lines so that it's easier to read. If you look carefully you will notice it consists of valuable information regarding my Github account: when it was created, how many public repositories I have, even how many people I am following. What happens here is that Github takes a few parameters from you (eg. my user name) and looks up my information in their database. When it finds out all the publicly available data, it returns a webpage full of the data in [JSON](www.json.org) format, that is, list of data in key-value pairs.
+
+## Who, what, where
+So let's actually start writing code. First of all we will set who we will scrape, and exactly what we will scrape from their JSON data.
