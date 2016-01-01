@@ -18,9 +18,10 @@ Data science is a buzzword these days and everyone is asking how to be a data sc
 
 > This is the first of a three part tutorial series on getting started with scraping data from Github:
 >
-> 1. [The Setup]({{ site.baseurl}}/scraping-github-1)
+> 1. [The Setup]({{ site.baseurl}}/scraping-github-1) (<-- you are here)
 > 2. [Fetching Data]({{ site.baseurl}}/scraping-github-2)
-
+> 3. [Storing to RethinkDB]({{ site.baseurl}}/scraping-github-3)
+>
 
 Many websites provide `API` so that other people can collect data from those sites to use in their work. For example you might want to know a Facebook page's growth over a certain period of time. Facebook made an API just so that you can get the data to do the analysis needed to answer your question. This sort of API is provided by Github and Twitter too. You can not imagine how vastly useful this public data is, they even came in handy as much as [detecting earthquakes](https://blog.twitter.com/2015/usgs-twitter-data-earthquake-detection) faster than the U.S. Geological Survey!
 
@@ -31,7 +32,7 @@ Enough talk, let's have some action! In this tutorial, I will get you started wi
 # Setup
 You will need to install a few softwares, preferably in a Linux workstation. I am going to use Ubuntu. If you are using Windows, then switch to Ubuntu or any other *nix. There is no way around it. You will need-
 
-- Python 2.x
+- Python 3
 - [Virtualenv and virtualenvwrapper](http://docs.python-guide.org/en/latest/dev/virtualenvs/)
 - RethinkDB 2.0.x
 - Sublime Text 3 or any good text editor for coding
