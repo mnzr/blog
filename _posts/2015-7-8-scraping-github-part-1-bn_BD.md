@@ -1,6 +1,7 @@
 ---
 layout:     post
 title:      "পাইথন দিয়ে গিটহাবের ডেটা স্ক্র্যাপিং - পর্ব ১"
+permalink: BD
 date:       2015-07-08 00:31:19
 author:     Ratul Minhaz
 summary:    "পাইথনের বেসিক ব্যবহার করে সহজে ডেটা স্ক্রেপিং শেখা যায়।"
@@ -10,6 +11,8 @@ tags:
  - scraping
  - python
  - API
+published: true
+
 ---
 
 <small>
@@ -88,7 +91,7 @@ for prop in properties:
             print prop, ':', json[prop]
         print ''
 
-{%endhighlight%}
+{% endhighlight %}
 এখানে যা হচ্ছে তা হল, আমাদের `properties` লিস্ট থেকে একটা একটা করে প্রোপার্টি দেখানো হচ্ছে `json` নামে প্রতিটি অবজেক্টের জন্য।
 এটা রান করলে আপনার স্ক্রিনে দেখাবে:
 ‍‍‍
